@@ -1,6 +1,6 @@
-# Projalyze
+# project-analyzers
 
-Projalyze is a CLI tool designed to analyze and document your JavaScript/TypeScript project. It generates a comprehensive PDF report containing details such as libraries, CSS information, project stability, bug reports, and component/module summaries.
+project-analyzers is a CLI tool designed to analyze and document your JavaScript/TypeScript project. It generates a comprehensive PDF report containing details such as libraries, CSS information, project stability, bug reports, and component/module summaries.
 
 ---
 
@@ -18,10 +18,10 @@ Projalyze is a CLI tool designed to analyze and document your JavaScript/TypeScr
 
 ### Install Globally
 
-To use `projalyze` globally on your system:
+To use `project-analyzers` globally on your system:
 
 ```bash
-npm install -g projalyze
+npm install -g project-analyzers
 ```
 
 ---
@@ -30,19 +30,19 @@ npm install -g projalyze
 
 ### Run the CLI
 
-After installation, you can use `projalyze` in any project directory:
+After installation, you can use `project-analyzers` in any project directory:
 
 ```bash
-projalyze
+project-analyzers
 ```
 
 ### Steps:
 
-1. **Install Projalyze:** Make sure it's installed globally as shown above.
+1. **Install project-analyzers:** Make sure it's installed globally as shown above.
 2. **Navigate to Your Project Root:** Go to the root directory of your project.
 3. **Run the Command:**
    ```bash
-   projalyze
+   project-analyzers
    ```
 4. **View the Generated Report:** The tool will generate a `project-report.pdf` in the current directory containing all analyzed details.
 
@@ -54,7 +54,7 @@ projalyze
 
 ```bash
 cd my-project
-projalyze
+project-analyzers
 ```
 
 Output:
@@ -81,7 +81,7 @@ The generated PDF includes:
 
 ## How It Works
 
-1. **Analyze Project:** Projalyze scans the project’s files and extracts necessary information.
+1. **Analyze Project:** project-analyzers scans the project’s files and extracts necessary information.
 2. **Generate PDF:** All extracted data is compiled into a structured and readable PDF report.
 
 ---
@@ -93,8 +93,8 @@ The generated PDF includes:
 If you want to contribute or test locally:
 
 ```bash
-git clone https://github.com/your-username/projalyze.git
-cd projalyze
+git clone https://github.com/kaushikdevs/project-analyzer.git
+cd project-analyzers
 ```
 
 ### Install Dependencies
@@ -117,12 +117,12 @@ To test your CLI tool locally:
 npm link
 ```
 
-You can now use `projalyze` globally on your system.
+You can now use `project-analyzers` globally on your system.
 
 ### Run the CLI
 
 ```bash
-projalyze
+project-analyzers
 ```
 
 ---
@@ -146,13 +146,13 @@ Contributions are welcome! Please follow these steps:
    ```
 5. Submit a pull request.
 
----
+<!-- ---
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
----
+--- -->
 
 ## Support
 
@@ -160,14 +160,14 @@ If you encounter any issues or have questions, feel free to open an issue in the
 
 ---
 
-## Roadmap
+<!-- ## Roadmap
 
 - Add support for more project types (e.g., Python, Ruby).
 - Include real-time progress in the CLI.
 - Enhance PDF formatting.
 - Provide JSON and HTML output options.
 
----
+--- -->
 
 ## Acknowledgments
 
